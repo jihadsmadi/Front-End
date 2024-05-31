@@ -1,0 +1,213 @@
+*{
+    box-sizing: border-box;
+}
+.assign1{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    color: #FF5722;
+    background-color: #ddd;
+    border-radius: 50%;
+    margin: 20px auto;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+    font-size: 25px;
+    font-weight: bold;
+    box-shadow: 5px 0px 0px #FF5722,
+                -5px 0px 0px #03A9F4;
+}
+
+
+.assign2 .parent,
+.assign3 .parent,
+.assign4 .parent,
+.assign5 .parent{
+    display: flex;
+    background-color: #eee;
+    width: 600px;
+    height: 300px;
+    margin: 20px auto;
+    padding: 10px;
+    flex-flow: row wrap;
+}
+
+.assign2 .parent{
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.assign2 .parent div{
+    background-color: #FF5722;
+    color: white;
+    width: calc(80% /3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.assign3 .parent{
+    justify-content: space-between;
+    align-content: stretch;
+}
+
+.assign3 .parent div{
+    background-color: #607D8B;
+    width: calc(80% / 3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    color: white;
+    
+}
+
+
+.assign3 .parent .one{
+    order: 6;
+    align-self: flex-end;
+}
+
+.assign3 .parent .two  {
+    order: 5;
+}
+
+.assign3 .parent .three{
+    order: 2;
+    align-self: flex-start;
+}
+
+.assign3 .parent .four{
+    order: 3;
+}
+
+.assign3 .parent .five{
+    order: 4;
+}
+.assign3 .parent .six{
+    order: 1;
+
+}
+
+.assign4 .parent{
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.assign4 .parent div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #009688;
+    color: white;
+    height: calc(90% / 3);
+    width: 5%;
+}
+
+
+.assign4 .parent .two{
+    align-self: flex-start;
+    width: 50%;
+}
+
+.assign5 .parent div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: calc(65% / 4);
+    height: 50%;
+    padding: 10px;
+
+}
+
+.assign5 .parent{
+    justify-content: space-between;
+
+}
+
+.assign5 .parent .one{
+    background-color: #FF9800;
+    order: 2;
+}
+
+.assign5 .parent .two{
+    background-color: #8BC34A;
+    order:3;
+    align-self: flex-end;
+}
+
+.assign5 .parent .three{
+    background-color: #795548;
+    order: 4;
+}
+
+.assign5 .parent .four{
+    background-color: #673AB7;
+    order: 1;
+    align-self: flex-end;
+}
+/* ---------------------------- */
+
+:root{
+    --background-color : #ddd;
+    --margin :10px;
+    --padding : 10px
+}
+.assign6 .page{
+    background-color: #eee;
+    overflow: hidden;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo,.links{
+    background-color: var(--background-color);
+    padding: var(--padding);
+    margin: var(--margin);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+}
+
+.links{
+    list-style: none;
+    flex-grow: 1;
+    justify-content: flex-end;
+}
+.links li{
+    padding: 10px;
+}
+
+
+.main-area{
+    display: flex;
+    justify-content: space-around;
+}
+
+.content,
+.sidebar{
+    background-color: var(--background-color);
+    padding: var(--padding);
+    margin: var(--margin);
+    width: calc(100% /5);
+    height: 300px;
+}
+
+.content{
+    flex-grow: 1;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--background-color);
+    padding: var(--padding);
+    margin: var(--margin);
+   
+}
+

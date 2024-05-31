@@ -1,0 +1,31 @@
+.assign1 div.main.red{
+    color: red;
+}
+
+.assign2 .parent > .child:nth-child(2){
+    color: red;
+}
+
+.assign3 .parent > .baby:only-child{
+    color: red;
+}
+
+.assign4 > div[title]:not(.no-need){
+    color: red;
+}
+
+.assign5 div:nth-child(2) div{
+    color: red;
+}
+
+.assign6 > div:not(.no-need) div:nth-last-of-type(2){
+    color: red;
+}
+
+.assign7 :first-child div:nth-last-child(2) {
+    color: red;
+}
+
+.assign8 :not(:first-child , h3,:last-child) {
+    color: red;
+}

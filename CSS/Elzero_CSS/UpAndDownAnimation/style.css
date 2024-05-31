@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(66, 74, 74);
+}
+
+.parent {
+    width: 200px;
+    height: 300px;
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.parent div{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgb(139, 83, 165);
+    margin: 0px 5px;
+    animation-name: up-down-loading;
+    animation-duration: 0.9s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.parent .two{
+    animation-delay: 0.3s;
+}
+
+.parent .three {
+    animation-delay: 0.6s;
+}
+@keyframes up-down-loading{
+    
+    to{
+        opacity: 0.2;
+        transform: translateY(-40px);
+    }
+}

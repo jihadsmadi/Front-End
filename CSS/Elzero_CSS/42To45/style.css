@@ -1,0 +1,72 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* Quiz One */
+/* .parnt{
+    position: relative;
+    width: 500px;
+    height: 200px;
+    background-color: #F2F2F4;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 20px;
+    margin: 100px auto;
+    transition-property: margin;
+    transition-duration: .5s;
+}
+
+.parnt:hover{
+    margin-top: -10px;
+}
+
+.child{
+    width: 360px;
+    height: 40px;
+    background-color: #DEDEDC;
+    text-align: center;
+    margin: 5px auto;
+    text-transform: capitalize;
+    padding: 10px;
+    margin-top: 30px;
+    transition: margin-top 0.5s 0.5s;
+}
+
+.parnt:hover .child{
+    margin-top: -5px;
+} */
+
+
+.assign2 div{
+    width: 400px !important;
+    font-size: 20px !important;
+    font-weight: bold !important;
+    margin: 20px auto !important;
+    background-color: #ddd !important;
+    text-align: center !important;
+    border: none !important;
+    color: transparent !important;
+    position: relative;
+}
+
+.assign2 div::before{
+    content: "Elzero";
+    position: absolute;
+    color: black;
+}
+
+:root {
+    /* --mainColor: #009688;
+    --mainPadding: 10px; */
+  }
+
+.assign-3 div{
+    width: 400px;
+    height: 40px;
+    padding: var(--mainPadding,10Px);
+    color: var(--mainColor , red);
+    border: 2px solid var(--mainColor, black);
+    margin: 10px auto;
+}

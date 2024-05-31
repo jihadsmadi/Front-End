@@ -1,0 +1,49 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <h2>التكليف الاول</h2>
+    <form action="test.py" method="post">
+        <div>
+            <label >Username</label>
+            <br>
+            <input type="text"name="Username" required placeholder="Lower Letters">
+        </div>
+        <hr>
+        <div>
+            <label >Password</label>
+            <br>
+            <input type="password" name="pass" placeholder="Enter Complex Password">
+        </div>
+        <hr>
+        <div>
+            <label >Mobile</label>
+            <br>
+            <input type="text" name="mobile" placeholder="123 (234) 20100+">
+        </div>
+        <hr>
+        <div>
+            <label >Email</label>
+            <br>
+            <input type="email" name="email" required placeholder="Valid Email (test@test.com)">
+        </div>
+        <hr>
+        <div>
+            <label >Subject</label>
+            <br>
+            <input type="text" name="Subject">
+        </div>
+        <input type="hidden" name="hiddenInput" value="200" >
+
+        <input type="reset" value="Empty Form">
+        <input type="submit" name="submit" value="Send Data">
+    </form>
+
+    <h2>التكليف الثاني</h2>
+    <form action="">
+        <input type="range" min="100" max="500" step="50" value="400" name="range">
+    </form>
+</body>
+</html>

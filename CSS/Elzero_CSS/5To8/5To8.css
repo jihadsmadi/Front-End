@@ -1,0 +1,119 @@
+/* التكليف الاول
+div{
+    width: 500px;
+    background-color: blueviolet;
+    padding: 20px;
+    margin: 20px;
+    color: white;
+    font-size: 100;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.assign-1-shape-2{
+    background-color: rgb(138 43 226 / 50% );
+}
+.assign-1-shape-3{
+    background-color: rgb(138 43 226 / 10% );
+} */
+
+/* 
+التكليف الثاني
+
+div{
+    width: 400px;
+    height: 400px;
+    background-image: url("Images/css-assignment-5-8.png");
+    color: white;
+    font-size: 50;
+    padding: 20px;
+}
+
+
+ .assign-2-shape-1{
+    background-repeat: no-repeat;
+ 
+}
+
+.assign-2-shape-2{
+    background-repeat: repeat-y;
+   
+}
+
+.assign-2-shape-3{
+    background-repeat: repeat-x;
+}
+
+.assign-2-shape-4{
+    background-repeat: repeat;
+}  */
+
+/* 
+التكليف الثالث
+
+div{
+    width: 400px;
+    height: 400px;
+    background-image: url("Images/css-assignment-5-8.png");
+    color: blueviolet;
+    font-size: 50;
+    padding: 20px;
+}
+
+.assign-3-shape-1{
+    background-repeat: no-repeat;
+ 
+}
+
+.assign-3-shape-2{
+    background-repeat: repeat-y;
+    background-position: right;
+   
+}
+
+.assign-3-shape-3{
+    background-repeat: repeat-x;
+    background-position: bottom;
+}
+
+.assign-3-shape-4{
+    background-repeat: repeat;
+    
+} */
+
+/* التكليف الرابع */
+
+div{
+    width: 400px;
+    height: 400px;
+    background-image: url("Images/css-assignment-5-8.png");
+    color: white;
+    background-color:darkgrey;
+    font-size: 50;
+    padding: 20px;
+    background-repeat: no-repeat;
+    background-size: 80%;
+}
+
+.assign-4-shape-1{
+   
+    background-position: left top;
+    
+}
+
+.assign-4-shape-2{
+  background-position: right;
+  background-repeat: repeat-y;
+ 
+}
+
+.assign-4-shape-3{
+  background-position: bottom  ;
+  background-repeat: repeat-x;
+  
+}
+
+.assign-4-shape-4{
+    background-position: bottom right ;
+    background-repeat: no-repeat;
+    background-size: 50%;
+}

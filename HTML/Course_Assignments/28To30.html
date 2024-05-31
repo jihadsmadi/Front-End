@@ -1,0 +1,82 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>التكليف الاول</h2>
+    <form action="" method="get">
+        <div>
+            <label for="">Username</label>
+            <input type="text" required minlength="5" maxlength="20" autofocus name="Username">
+        </div>
+        <br>
+        <div>
+            <label for="">Email</label>
+            <input type="email" name="Email" readonly value="o@o.com">
+        </div>
+
+        <br>
+        <h3>Skills</h3>
+        <div>
+
+            <input type="checkbox" checked name="Skills" value="Problem Solving" id="probs">
+            <label for="probs">Problem Solving</label>
+        </div>
+        <br>
+        <div>
+
+            <input type="checkbox" name="Skills" value="Logicel Thinking" id="Lth">
+            <label for="Lth">Logical Thinking</label>
+        </div>
+        <br>
+        <div>
+
+            <input type="checkbox" name="Skills" value="Planing" id="pl">
+            <label for="pl">Planing</label>
+        </div>
+        <h3>Job</h3>
+        <div>
+            <input type="radio" name="job" value="Software Enginner" id="SoftEn">
+            <label for="SoftEn">Software Enginner</label>
+        </div>
+        <div>
+            <input type="radio" checked name="job" value="Accounting" id="Accou">
+            <label for="Accou">Accounting</label>
+        </div>
+        <div>
+            <input type="radio" name="job" value="Police Man" id="Pman">
+            <label for="Pman">Police Man</label>
+        </div>
+        <div>
+            <label for="selectLan">Chose Programming Language</label>
+            <select name="programmingLan" id="selectLan">
+                <optgroup label="PHP" >
+                    <option value="V5.0">V5.0</option>
+                    <option value="V7.0">V7.0</option>
+                    <option value="V8.0">V5.0</option>
+                </optgroup>
+                <optgroup label="Python">
+                    <option value="V2.1">V2.1</option>
+                    <option value="V3.">V3.0</option>
+                    <option value="V3.9">V3.9</option>
+                </optgroup>
+            </select>
+        </div>
+
+        <br>
+        <textarea name="vrief" cols="30" rows="10" placeholder="Write Here With Text Area For Learing"></textarea>
+        <div>
+            <input type="hidden" name="Token" value="b92f1fc2fce391ad7af633723afd3055">
+        </div>
+        <br>
+        <input type="reset" value="Empty">
+        <input type="submit" value="Send">
+    </form>
+
+
+</body>
+
+</html>

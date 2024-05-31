@@ -1,0 +1,98 @@
+/* first quiz */
+/* div{
+    width: 300px;
+    height: 60px;
+    margin: 20px auto;
+    text-align: center;
+    color: black;
+    border-radius: 5px;
+    background-color: #ddd;
+    padding-top: 40px;
+}
+
+:empty{
+    background-color: red;
+}*/
+
+/* div{
+    background-color: #ddd;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    width: 300px;
+    height: 22px;
+    margin: 20px auto;
+}
+div::first-letter{
+    content: "";
+    background-color: red;
+    color: white;
+    width: 8px;
+    height: 27px;
+    position: absolute;
+    padding: 5px;
+    margin-left: -63px;
+    margin-right: 2px;
+} */
+
+/* Third Quiz */
+/* 
+p{
+    background-color: #ddd;
+    width: 200px;
+    height: 30px;
+    margin: 20px auto;
+    padding-top: 10px;
+    text-align: center;
+    border-left: 2px solid red;
+    position: relative;
+    font-size: 10px;
+}
+
+
+p::before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -20px;
+    width: 0;
+    height: 0;
+    margin-top: -10px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: transparent red transparent transparent;
+}
+
+p::after{
+    content: attr(data-person);
+    position: absolute;
+    background-color: #ddd;
+    padding: 10px;
+    width: 37px;
+    height: 20px;
+    top: 0;
+    left: -71px;
+    
+} */
+
+
+
+div p{
+    background-color: #ddd;
+    text-align: left;
+    border-right: 2px solid #F44336;
+    width: 300px;
+    height: 22px;
+    counter-increment: members-counter;
+    margin: 20px auto;
+}
+
+p::before{
+    content: counter(members-counter);
+    background-color: #F44336;
+    color: white;
+    padding: 2px;
+    position: absolute;
+    left: 50px;
+}
+

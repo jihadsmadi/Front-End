@@ -1,0 +1,63 @@
+/* First Quiz */
+/* div{
+    background-color: gray  ;
+    color: black;
+    width: fit-content;
+    padding: 10px;
+    font-size: 30px;
+    text-transform: capitalize;
+    text-shadow: 1px 1px 1px red,
+                2px 2px blue,
+                3px 3px blueviolet;
+    
+} */
+
+/* second Quiz */
+/* p{
+    width: 200px;
+    padding: 10px;
+    color: black;
+    margin: 2px 0;
+    background-color: #eee;
+    text-align: center;
+}
+
+.one {
+    text-transform: uppercase;
+}
+
+.two{
+    text-transform: capitalize;
+}
+.three{
+    text-transform: lowercase;
+} */
+
+
+/* third Quiz */
+/* div{
+    width: 400px;
+    background-color: gray;
+    padding: 8px;
+    margin: 10px;
+    color: white;
+   
+}
+
+.three{
+    white-space: nowrap;
+    overflow:hidden;
+    text-overflow: ellipsis;
+} */
+
+a{
+    background-color: #009688;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 20px;
+    padding: 5px;
+    text-decoration: none;
+    border-bottom: 2px solid #00514A ;
+}

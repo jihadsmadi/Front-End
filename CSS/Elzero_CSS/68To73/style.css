@@ -1,0 +1,224 @@
+*{
+    box-sizing: border-box;
+}
+
+:root{
+    --orangeColor : #ff5722;
+    --greenColor : #009688;
+}
+
+.assign1 h1{
+    width: 150px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: var(--orangeColor);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+}
+
+.assign1 h1::before,
+.assign1 h1::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: var(--orangeColor);
+    z-index: -1;
+    top: 0;
+    left: 0;
+}
+
+.assign1 h1::before{
+    transform: skew(10deg, 10deg);
+}
+
+
+.assign1 h1::after{
+    transform: skew(-10deg, -10deg);
+}
+
+.assign2 h1{
+    width: 150px;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: var(--greenColor);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+}
+
+.assign2 h1::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: var(--greenColor);
+    z-index: -1;
+    top: 0;
+    left: -12px;
+    transform: skew(20deg, 0);
+}
+
+.assign2 h1::after{
+    content: "";
+    position: absolute;
+    width: 10%;
+    height: 100%;
+    background-color: var(--greenColor);
+    top: 0;
+    left: -33px;
+    transform: skew(20deg, 0);
+    
+}
+
+
+/* 
+.class {
+   matrix(3, 0.2679, 0, 3, 20, 100);
+   scaleX = 0,
+   skewY = 0.2679,
+   skewX = 0,
+   scaleY = 3,
+   translateX = 20 ,
+   translateY = 100
+
+} */
+
+.assign4 div{
+    width: 200px;
+    height: 200px;
+    margin: 100px auto;
+    padding: 10px;
+    background-color: #607d8b;
+    position: relative;
+    display: flex;
+    align-items: self-end;
+    border-bottom: 5px solid black;
+}
+
+.assign4 div::after{
+    content: "Elzero";
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.assign4 div::before{
+    content: "";
+    width: 69%;
+    height: 69%;
+    background-color: black;
+    border-right: 7px solid white;
+    border-bottom: 7px solid white;
+    position: absolute;
+    top: -71px;
+    left: 27px;
+    transform: rotate(45deg)
+    perspective(6000px)
+}
+
+.assign5 .shape1{
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+    padding: 10px;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: capitalize;
+    position: relative;
+    transition: 1.2s;
+    transform-style: preserve-3d;
+}
+
+.assign5 .shape1::before{
+    content: "Front";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #fa3664;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.assign5 .shape1::after{
+    content: "Back";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #1692fc;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+    
+}
+
+.assign5 .shape1:hover {
+    transform: rotateY(180deg)
+}
+
+
+/* --------- */
+
+.assign5 .shape2{
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+    padding: 10px;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: capitalize;
+    position: relative;
+    transition: 1.2s;
+    transform-style: preserve-3d;
+}
+
+.assign5 .shape2::before{
+    content: "Front";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #fa3664;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.assign5 .shape2::after{
+    content: "Back";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #1692fc;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backface-visibility: hidden;
+    transform: rotateX(180deg);
+    
+}
+
+.assign5 .shape2:hover {
+    transform: rotateX(180deg)
+}
+

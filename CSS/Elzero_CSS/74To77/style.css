@@ -1,0 +1,153 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+:root{
+    --pinkColor :#e71b5f;
+    --blueColor : #1c96ea;
+    --orangColor:#f9a600;
+}
+.assign1 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 30px auto;
+    border: 5px solid var(--pinkColor);
+    border-left-color: transparent;
+    position: relative;
+    animation-name: spin;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function:linear ;
+    transform-style: preserve-3d;
+}
+
+.assign1 div::before{
+    content: "";
+    position: absolute;
+    width: calc(100% + 13px);
+    height: calc(100% + 13px);
+    border-radius: 50%;
+    border: 5px solid var(--blueColor);
+    border-right-color: transparent;
+    top: -11px;
+    left: -11px;
+    
+}
+
+.assign1 div::after{
+    content: "";
+    position: absolute;
+    width: calc(100% + 27px);
+    height: calc(100% + 27px);
+    border-radius: 50%;
+    border: 5px solid var(--orangColor);
+    border-bottom-color: transparent;
+    top: -18px;
+    left: -18px;
+}
+
+@keyframes spin{
+    to{
+        transform: rotateZ(360deg)
+    }
+}
+
+.assign1:hover{
+    animation-play-state: paused;
+}
+
+.assign2 {
+    width: 50px;
+    height: 50px;
+    margin: 30px auto;
+    border-radius: 50%;
+    border: 5px solid var(--blueColor);
+    border-bottom-color: transparent;
+    position: relative;
+    animation-name: spin2;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function:linear ;
+    animation-play-state: paused;
+}
+
+.assign2 ::before{
+    content: "";
+    position: absolute;
+    width: calc(100% + 15px);
+    height: calc(100% + 15px);
+    border-radius: 50%;
+    border: 5px solid var(--orangColor);
+    border-bottom-color: transparent;
+    top: -12px;
+    left: -12px;
+    animation-name: spin2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function:linear ;
+    animation-play-state: paused;
+}
+
+.assign2 ::after{
+    content: "";
+    position: absolute;
+    width: calc(100% + 30px);
+    height: calc(100% + 30px);
+    border-radius: 50%;
+    border: 5px solid black;
+    border-bottom-color: transparent;
+    top: -19px;
+    left: -19px;
+    animation-name: spin2;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function:linear ;
+    animation-play-state: paused;
+}
+
+.assign2:hover ,.assign2:hover ::before , .assign2:hover ::after{
+    animation-play-state: running;
+}
+
+@keyframes spin2{
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+/* ------------------ */
+
+.assign3 span{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 30px auto;
+    background-color: #dadae2;
+    display: block;
+    position: relative;
+}
+
+.assign3 span::before{
+    content: "";
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+    border: 5px solid black;
+    border-bottom-color: transparent;
+    top: 0;
+    left: 0;
+    
+    animation-name: spin3;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function:linear ;
+    animation-direction: reverse;
+}
+@keyframes spin3{
+    to{
+        transform: rotateZ(360deg);
+    }
+}

@@ -1,0 +1,69 @@
+.assign1 div{
+    width: 600px;
+    height: 75px;
+    background-color: #eee;
+    margin: 20px auto;
+    padding: 10px;
+    text-align: center;
+    font-size: 50px;
+    align-content: center;
+    letter-spacing: 15px;
+    border-right: 5px solid #673ab7;
+    border-left: 5px solid #f44336;
+    position: relative;
+}
+
+.assign1 div::before,.assign1 div::after{
+    content: "";
+    position: absolute;
+    width: 620px;
+    height: 5px;
+    background-image: linear-gradient(to right,#f44336 20%, #2196f3 20% ,#2196f3 40%, #4db051 40%, #4db051 60%, #e91e63 60% , #e91e63 80%,#673ab7 80%);
+}
+
+.assign1 div::before{
+    top: 0;
+    left: 0;
+}
+
+
+.assign1 div::after{
+    bottom: 0;
+    left: 0;
+}
+.assign1 div::first-letter{
+    color: #f44336;
+}
+
+
+/* ------------------------------- */
+
+.assign2 div{
+    width: 600px;
+    padding: 10px;
+    margin: 20px auto;
+    
+}
+
+.assign2 input{
+    width: 100%;
+    padding: 20px;
+    background-color: #eee;
+    border: none;
+    caret-color: #f44336;
+    font-size: 20px;
+    position: relative;
+}
+
+.assign2 input:focus{
+    outline: none;
+}
+
+.assign2 div::after{
+    content: "";
+    position: absolute;
+    width: 640px;
+    height: 2px;
+    background-image: linear-gradient(to right, #f44336 50%, #009688 50%, #009688 100%);
+}
+

@@ -1,0 +1,51 @@
+/* التكليف الاول */
+/* div{
+    background-color: gray;
+    color: white;
+    display: inline;
+    margin: 10px;
+    padding: 15px;
+    outline: 5px solid black  ;
+}
+
+.shape1{
+    border: 5px solid red ;
+}
+
+.shape2{
+    border-color: blue green;
+    border-style: solid;
+    border-width: 5px;
+}
+
+.shape3{
+    border-color: red green blue yellow;
+    border-style: dashed;
+    border-width: 5px;
+} */
+
+/* div{
+    width:  400px;
+    height: 20px;
+    background-color: gray;
+    padding:2px;
+    margin: 15px 0 ;
+    border-color: gray;
+    color: white;
+    outline: 3px solid gray  ;
+}
+
+.element-element-1{
+    border-left-color: red;
+    border-width: 3px;
+    border-style: solid;
+}
+.element-element-2{
+    visibility: hidden;
+}
+.element-element-3{
+    border-left-color: green;
+    border-width: 3px;
+    border-style: solid;
+} */
+
