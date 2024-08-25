@@ -1,0 +1,48 @@
+input,
+select {
+    display: block;
+    width: 175px;
+    height: 30px;
+    margin: 0 0 10px;
+    outline: none;
+    border: 2px solid rgba(112, 108, 115, 0.792);
+    transition: 0.5s;
+    border-radius: 2px;
+    padding: 0 5px;
+}
+
+form {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+form input:focus,
+form select:focus {
+    border-color: rgb(9, 124, 170);
+}
+
+form select,
+form input[type="submit"] {
+    width: 100px;
+}
+
+form .results {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+form .results div,
+form .results section {
+    background-color: cornflowerblue;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    width: 200px;
+}
