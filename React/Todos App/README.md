@@ -2,7 +2,7 @@
 
 ![React](https://img.shields.io/badge/React-18-blue?logo=react)
 ![Material%20UI](https://img.shields.io/badge/Material%20UI-5.14-lightblue?logo=mui)
-![License](https://img.shields.io/badge/License-MIT-green)
+
 
 A modern Arabic-first todo management application built with React and Material-UI. Manage your tasks efficiently with a clean and intuitive interface.
 
