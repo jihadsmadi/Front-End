@@ -6,7 +6,7 @@
 
 A modern Arabic-first todo management application built with React and Material-UI. Manage your tasks efficiently with a clean and intuitive interface.
 
-**Live Demo**: [https://lambent-pastelito-8ea1ab.netlify.app/]("https://lambent-pastelito-8ea1ab.netlify.app/")
+**Live Demo**: [https://lambent-pastelito-8ea1ab.netlify.app/](https://lambent-pastelito-8ea1ab.netlify.app/)
 
 
 
