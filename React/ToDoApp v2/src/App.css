@@ -1,0 +1,70 @@
+body {
+  background-color: rgba(0, 0, 0, 0.831);
+  height: 100vh !important;
+  margin: 0 !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info {
+  direction: rtl;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card:hover {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.operations {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3px;
+}
+
+
+.tasks {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: right;
+}
+
+Label {
+  font-size: 13px !important;
+}
+
+.btnAddNewTask:hover {
+  border-color: white !important;
+}
+
+.btnConfirmDelete:hover {
+  background-color: rgb(218 17 17 / 8%);
+}
+
+/* CUSTOM FONTS  */
+@font-face {
+  font-family: Lemonada;
+  src: url('../public/fonts/Lemonada/Lemonada-Regular.ttf');
+  font-weight: 400;
+}
+
+
+@font-face {
+  font-family: Lemonada;
+  src: url('../public/fonts/Lemonada/Lemonada-SemiBold.ttf');
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: Lemonada;
+  src: url('../public/fonts/Lemonada/Lemonada-Bold.ttf');
+  font-weight: bold;
+}
+
+/* === END CUSTOM FONTS ==== */
